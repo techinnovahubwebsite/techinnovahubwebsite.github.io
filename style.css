@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+.container {
+    height: 650px;
+    max-width: 100%;
+}
+
+.menu {
+    color: rgb(216, 206, 206);
+    font-size: 1.2em;
+    font-weight: normal;
+    background-color: #000;
+    height: 60px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.menu li {
+    display: inline;
+    padding: 30px;
+}
+.menu a {
+    text-decoration: none;
+    color: rgb(214, 205, 205);
+}
+/* .menu a:link {
+    color: rgb(219, 200, 200);
+} */
+.menu a:hover {
+    color: rgb(247, 42, 6);
+}
+
+.menu a:active {
+    color: rgb(25, 221, 235);
+}
+
+/* .menu a:visited {
+    color: rgb(233, 8, 184);
+} */
+.c{
+    margin-left: 50px;
+}
+.a {
+    margin-left: 50px;
+}
+.image {
+    width: 100%;
+    display: flex;
+    opacity:  0.5;
+    height: 700px;
+    width: 100%;
+}
+/* .image-banner {
+    display: flex;
+} */
+.image-banner .profile {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    widows: 100%;
+}
+.profile h1 {
+    font-size: 3em;
+    color: #000;
+    font-weight: normal;
+}
+
+.image-banner p {
+    font-size: 2em;
+    color: rgb(0, 5, 0);
+    padding: 5px;
+    margin-left: 80px;
+}
+
+.img-back {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hr {
+    position: relative;
+    left: -40px;
+    width: 200px;
+    color: black;
+    margin-top: 10px;
+}
+
+.skills {
+    position: relative;
+    top: 10%;
+    left: 50%;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+
+.first-group {
+    display: flex;
+}
+.first-group .python {
+    min-width: 25%;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+}
+.first-group .c {
+    min-width: 25%;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+}
+
+.first-group .java {
+    min-width: 25%;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+}
+.first-group .javascript {
+    min-width: 25%;
+    padding-right: 15px;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+}
+
+.second-group {
+    display: flex;
+    margin: 50px;
+}
+.second-group .php {
+    min-width: 200px;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    padding-right: 20px;
+}
+.second-group .html {
+    min-width: 25%;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+}
+
+.second-group .css {
+    min-width: 200px;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+}
+.second-group .android {
+    min-width: 200px;
+    padding-right: 15px;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+}
+.progress {
+    width: 100%;
+    margin: 10px;
+}
+
+.p-projects {
+    position: relative;
+    top: -2px;
+    left: 40%;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+
+.hr2 {
+    position: relative;
+    left: -40px;
+    width: 300px;
+    color: black;
+    margin-top: 10px;
+}
+
+.projects {
+    display: flex;
+}
+.p1 {
+    flex-grow: 1;
+}
+
+.p2 {
+   flex-grow: 1; 
+}
+
+.p3 {
+    flex-grow: 1;
+}
+
+.clients-test {
+    position: relative;
+    top: -2%;
+    left: 40%;
+    padding-bottom: 25px;
+    margin-top: 40px;
+}
+
+.hr3 {
+    position: relative;
+    left: -40px;
+    width: 350px;
+    color: black;
+    margin-top: 10px;
+}
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 30px 450px;
+}
+
+.first-client h2 {
+    font-size: 2.2em;
+    color: rgb(51, 50, 50);
+}
+
+.first-client h4{
+    font-size: 1.5em;
+    padding-left: 30px;
+    color: gray;
+}
+.first-client a {
+    text-decoration: none;
+}
+.first-client p{
+    color: gray;
+    font-style: italic;
+}
+
+
+.second-client h2 {
+    font-size: 2.2em;
+    color: rgb(51, 50, 50);
+}
+
+.second-client h4{
+    font-size: 1.5em;
+    padding-left: 10px;
+    color: gray;
+}
+.second-client a {
+    text-decoration: none;
+}
+.second-client p{
+    color: gray;
+    font-style: italic;
+}
+
+.third-client h2 {
+    font-size: 2.2em;
+    color: rgb(51, 50, 50);
+}
+
+.third-client a {
+    text-decoration: none;
+}
+
+.third-client h4{
+    font-size: 1.5em;
+    padding-left: 10px;
+    color: gray;
+}
+
+.third-client p{
+    color: gray;
+    font-style: italic;
+}
